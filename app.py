@@ -1,7 +1,3 @@
-from multiprocessing import Value
-from re import X
-from turtle import width
-
 from serpapi import GoogleSearch
 import streamlit as st
 import pandas as pd
@@ -100,5 +96,6 @@ fig,ax=plt.subplots()
 ax.pie(med_price,labels=med_company,shadow=True)
 #ax.axis("equal")
 st.pyplot(fig)
+
 
 
